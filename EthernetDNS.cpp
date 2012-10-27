@@ -20,9 +20,10 @@
 
 #include <string.h>
 #include <stdlib.h>
+#include <Arduino.h>
 
 extern "C" {
-   #include "wiring.h"
+   #include <wiring.h>
    #include <utility/EthernetUtil.h>
 }
 

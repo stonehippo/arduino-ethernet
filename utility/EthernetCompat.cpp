@@ -27,7 +27,7 @@
 #include <utility/socket.h>
 #include <utility/w5100.h>
 extern "C" {
-   #include "wiring.h"
+   #include <wiring.h>
 }
 
 #define TXBUF_BASE      0x4000
@@ -184,7 +184,7 @@ void ethernet_compat_write_SUBR(uint8_t* subnetMask)
 #else // Arduino before 0019
 
 extern "C" {
-   #include "wiring.h"
+   #include <wiring.h>
    #include "../Ethernet/utility/types.h"
    #include "../Ethernet/utility/spi.h"
    #include "../Ethernet/utility/socket.h"
