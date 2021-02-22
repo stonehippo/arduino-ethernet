@@ -1,3 +1,8 @@
+THIS LIBRARY IS DEPRECATED AND NO LONGER SUPPORTED.
+=======
+
+_This library was never made compatible with the Arduino 1.x core, and it's no longer needed for DHCP or DNS. And there are other alternatives available for Bonjour/ZeroConf/mDNS as well._
+
 Arduino Ethernet
 ================
 
